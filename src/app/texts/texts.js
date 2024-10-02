@@ -1,36 +1,36 @@
-const title = "Titulo del emprendimiento";
-const email = "Email del emprendimiento";
+const title = "TiterArt";
+const email = "Didácticosangel@gmail.com";
 const mensajeWhatsApp = encodeURIComponent(
-    `¡Hola! Estoy muy interesado en tus productos de ${title} y me gustaría recibir más información sobre ellos. Espero poder hablar pronto contigo para aclarar algunas dudas. ¡Gracias!`
+    `¡Hola! Estoy interesado en los productos de ${title} y me gustaría obtener más información. ¡Gracias!`
 );
-const numeroWhatsApp = "Numero del emprendimiento";
+const numeroWhatsApp = "3118084979";
 const textos = {
     index: {
-        title: title,
+        title: `${title}`,
+        slogan: "Diversión sin fin",
     },
     homeContent: {
-        title: title,
+        title: `${title}`,
     },
     about: {
-        description1: "Descripción del emprendimiento parrafo uno",
-        description2: "Descripcion del emprendimiento parrafo dos"
+        description1: `Didácticos TiterArt es un emprendimiento colombiano dedicado a facilitar la enseñanza hacia niños y niñas de forma divertida y dinámica. Ofrecemos una gran variedad de productos como títeres de animales, familias de etnias colombianas, muñecos de profesiones, muñecas de trapo, cubos de la vida diaria y mucho más.`,
+        description2: `Contáctanos para tener el gusto de atenderte y descubrir cómo nuestros productos pueden contribuir a la educación y el entretenimiento de los más pequeños.`,
     },
     contact: {
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`,
-        email: email
+        email: email,
     },
     footer: {
-        slogan:{
-            p1: "slogan del emprendimiento parrafo uno",
-            p2: "slogan del emprendimiento parrafo dos"
+        slogan: {
+            p1: "",
+            p2: "Diversión sin fin",
         },
-        address: "Dirección del emprendimiento",
+        address: "",
         phone: numeroWhatsApp,
         email: email,
-        facebook: "https://www.facebook.com/",
-        instagram: "https://www.instagram.com/",
-        whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`
+        facebook: "https://www.facebook.com/profile.php?id=61565696020352&mibextid=ZbWKwL",
+        instagram: "PENDIENTE",
+        whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`,
     },
-
 };
 export default textos;
