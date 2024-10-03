@@ -13,8 +13,7 @@ const textos = {
         title: `${title}`,
     },
     about: {
-        description1: `Didácticos TiterArt es un emprendimiento colombiano dedicado a facilitar la enseñanza hacia niños y niñas de forma divertida y dinámica. Ofrecemos una gran variedad de productos como títeres de animales, familias de etnias colombianas, muñecos de profesiones, muñecas de trapo, cubos de la vida diaria y mucho más.`,
-        description2: `Contáctanos para tener el gusto de atenderte y descubrir cómo nuestros productos pueden contribuir a la educación y el entretenimiento de los más pequeños.`,
+        description1: "Didácticos titer Art es un emprendimiento colombiano dedicado a facilitar la enseñanza hacia niños y niñas de forma divertida y dinámica ofrecemos gran variedad de productos tales como títeres de animales de familias de etnias colombianas de profesiones muñecos para vestir muñecas de trapo cubos de la vida diaria y muchos más contáctanos para tener el gusto de atenderlos"
     },
     contact: {
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`,
